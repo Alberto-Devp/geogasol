@@ -1,0 +1,73 @@
+#errorDiv {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    /* Ajuste de tamaño de fuente para títulos */
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    /* Ajuste de tamaño de fuente para etiquetas y entradas de texto */
+    label, input, select {
+        font-size: 0.9em;
+    }
+    /* Ajuste de margen para el botón */
+    button {
+        margin-top: 10px;
+    }
+    /* Ajuste de margen entre el input del municipio y el selector de orden */
+    #municipioInput {
+        margin-bottom: 5px;
+    }
+    #precioSelectorDiv {
+        margin-bottom: 10px;
+    }
+    /* Ajuste de margen y tamaño de fuente para el div de error */
+    #errorDiv {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    /* Ajuste de tamaño de fuente y padding para las celdas de la tabla */
+    th, td {
+        padding: 6px;
+        font-size: 0.9em;
+    }
+    /* Permitir desplazamiento horizontal en la tabla */
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+    /* Ajuste de espacio entre el input del municipio y el selector de orden */
+    #brMobile {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
